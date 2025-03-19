@@ -1,0 +1,20 @@
+#titulo-principal{
+    color: green;
+    text-align: center;
+}
+
+.destaque{
+    color: red;
+    font-weight: bold;
+    text-align: justify;
+}
+
+p{
+    color: blue;
+    text-align: justify;
+}
+
+footer{
+    background-color: #D3D3D3;
+    text-align: center;
+}

@@ -1,0 +1,35 @@
+hr{
+    color:#0000FF;
+}
+
+p{
+    margin-left: 20px;
+}
+
+body{
+    background-image: url("https://th.bing.com/th/id/OIP.OjtdlWPSdYwhx5wqzHEkPgHaE-?w=261&h=180&c=7&r=0&o=5&pid=1.7");
+}
+
+#div1{
+    background-color: green;
+    float: left;
+    width: 100%; height: 200px;
+}
+
+#div2{
+    background-color: blue;
+    float: left;
+    width: 30%; height: 300px;
+}
+
+#div3{
+    background-color: red;
+    float: left;
+    width: 70%; height: 300px;
+}
+
+#div4{
+    background-color: yellow;
+    float: left;
+    width: 100%; height: 100px;
+}
