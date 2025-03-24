@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.navbar {
+    background: #282828;
+    color: white;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background: #444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #666;
+}
+
+.sidebar {
+    background: #202020;
+    color: white;
+    padding: 15px;
+    width: 220px;
+    position: fixed;
+    top: 50px;
+    bottom: 0;
+}
+
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+.video-list {
+    display: flex;
+    gap: 15px;
+}
+
+.video, .ad {
+    background: #333;
+    width: 120px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 8px;
+    color: white;
+}
